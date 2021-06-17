@@ -1,0 +1,25 @@
+.addUser-form-container{
+  width: 25%;
+  border: 1px solid gainsboro;
+  border-radius: 15px;
+  padding: 2rem 1rem 4rem;
+  margin: 5rem auto;
+  background-color: white;
+}
+
+.addUser-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-header{
+  margin-top: 1rem !important;
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+}
+
+.addUser-button-container{
+  display: flex;
+  justify-content: center;
+}

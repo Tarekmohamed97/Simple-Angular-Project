@@ -1,0 +1,24 @@
+body{
+  background: #010924;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.form-container{
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-header{
+  margin-top: 1rem !important;
+  font-weight: bold;
+  font-size: 220%;
+}

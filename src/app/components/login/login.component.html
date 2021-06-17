@@ -1,0 +1,19 @@
+<div class="login-container" data-aos="fade-left">
+  <form #loginForm="ngForm" class="login-form" (ngSubmit)="submitLogin(loginForm)">
+    <mat-card class="mat-elevation-z5">
+        <h2 class="login-form-header" i18n>Login</h2>
+        <div class="form-container">
+          <mat-form-field appearance="outline">
+            <mat-label i18n>Email</mat-label>
+            <input name="email" id="email" type="email" matInput required ngModel email>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label i18n>Password</mat-label>
+            <input name="password" id="password" type="password" matInput required ngModel>
+          </mat-form-field>
+          <button class="login-btn" type="submit" [disabled]="!loginForm.valid || loading" mat-button mat-raised-button color="primary">login</button>
+          <mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
+        </div>
+    </mat-card>
+  </form>
+</div>

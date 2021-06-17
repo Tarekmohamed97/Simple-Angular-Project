@@ -1,0 +1,35 @@
+.userDate-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 3rem auto 1rem;
+  width: 50%;
+}
+
+.addUser-button-container{
+  margin-bottom: 1rem;
+}
+
+::ng-deep .mat-table thead {
+  background: gainsboro !important;
+
+}
+
+::ng-deep .mat-sort-header-container {
+  color: black;
+  font-weight: bolder;
+}
+
+table{
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
+}
+
+th,td{
+  padding: 1rem !important;
+}
+
+
